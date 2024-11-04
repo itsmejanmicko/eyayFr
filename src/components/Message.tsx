@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from  "react";
 
 type MessageType = {
     text: string;
@@ -30,7 +30,7 @@ export default function Message({ initialMessage }: MessageProps) {
         setError(null); 
 
         try {
-            const response = await fetch('http://localhost:5000/message', {
+            const response = await fetch('https://eyayapi.vercel.app/message', {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
