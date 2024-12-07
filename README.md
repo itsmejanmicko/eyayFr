@@ -5,11 +5,8 @@ Your Free AI Companion Powered by Gemini EyAi is a user-friendly web application
 
 
 ## Tech Stack
-
 **Client:** React Vite, TailwindCSS
-
 **Server:** Node, Express
-
 **API:** Gemni gemini-1.5-flash-latest
 
 
